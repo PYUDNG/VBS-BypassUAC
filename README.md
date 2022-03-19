@@ -9,6 +9,9 @@ Arguments:
 
 ## BypassUAC.source.vbs
 For Other scripts. Just run `BypassUAC.source.vbs [-h|/h] Command1[ Command2 Command3...]` to get your command executed with UAC privilege without alerts.
+Arguments:
+1. `-h` or `/h`: If provided, execute your commands with windows hidden, othervise just execute normally
+2. `Command`: Command you want to execute with uac without alerts.
 
 ## BypassUAC.min.vbs
 The Same as `BypassUAC.source.vbs`, but the code is minified.
